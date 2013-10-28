@@ -1,0 +1,70 @@
+#Container {
+	height: auto;
+	width: 100%;
+}
+#TopMenu {
+	background-color: #FFFFFF;
+	height: 100px;
+	width: 100%;
+	margin-top: 10px;
+}
+#TopBanner {
+	background-color: #0099CC;
+	height: 20px;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Main {
+}
+#LeftColumn {
+	background-color: #FFFFFF;
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#RightColumn {
+	float: left;
+	height: auto;
+	width: 77%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#Footer {
+	clear: both;
+	height: 200px;
+	width: 100%;
+	margin-top: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	background-color: #FFFFFF;
+}
+#Home {
+	float: left;
+	height: 100%;
+	width: 100px;
+}
+#Text {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 35%;
+}
+#ShutDown {
+	float: right;
+	height: 100px;
+	width: 100px;
+}
+#CopyRight {
+	height: 50px;
+	width: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	background-color: #CCCCCC;
+}

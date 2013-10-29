@@ -1,0 +1,129 @@
+
+
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        
+        
+        
+        <link href="<c:url value = "/CSS/FrontEnd_CSS.css" />" rel="stylesheet" type="text/css" />
+
+
+<link rel='stylesheet' type='text/css' href ='${pageContext.request.contextPath}/VerticalMenu_blackbear1412/stylesheets/menu_builder.css'/>
+<link rel='stylesheet' type='text/css' href ='${pageContext.request.contextPath}/VerticalMenu_blackbear1412/stylesheets/style.css'/>
+<script type="text/javascript" src="${pageContext.request.contextPath}/VerticalMenu_blackbear1412/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/VerticalMenu_blackbear1412/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/VerticalMenu_blackbear1412/js/tinynav.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/VerticalMenu_blackbear1412/js/mb.js"></script>
+    </head>
+    <body>
+        <div id="TopMenu">
+  <div id="TopBar">
+  <a href="index.php"><img src="<c:url value = "/WebsiteImages/Home.png" />" width="80" height="80" border="0" /></a>
+       <a href="About.php"><img src="${pageContext.request.contextPath}/WebsiteImages/About.jpg" width="80" height="80" border="0" /></a> 
+  </div>
+  <div id="SearchBox">
+    <form id="searchbox" action="">
+      <input id="search" type="text" placeholder="Type here" />
+      <input id="submit" type="submit" value="Search" />
+    </form>
+  </div>
+</div>
+  
+  
+<div id="Container">
+	
+  
+  
+  <!-- End of Top Menu -->
+  
+  
+  <div id="TopBanner">
+    <img src="${pageContext.request.contextPath}/WebsiteImages/Banner.jpg" width="100%" height="200" />  </div>
+  <div id="Main">
+    <div id="Content"></div>
+    
+    <!--Right Column area -->	
+    <div id="RightColumn"> 
+    
+    <!-- Start Categories area --> 
+      <div id="Categories">
+       <!-- Start of the body content for CoffeeCup Menu Builder -->
+        <div id="menuBuilderContainer">
+            <div id="menuBuilder">
+              <button  class="nav-button button bar">
+              <i class="icon_menu_handle"></i>
+                        <span class="text_menu_link">MENU</span>              </button>
+<div  id="nav" class="nav vertical">
+                        <ul  id="mainmenu" class="nav-collapse">
+                        <li id="menu_1" class="menu_1 menu_items">
+                            <a href="FrontEndPages/WindowsPhone">
+                            <span class="icon_menu_handle"></span>
+                          <span class="text_menu_link">Windows Phone</span>                          </a></li>
+                  <li id="menu_2" class="has-flyout menu_2 menu_items">
+                            <a href="FrontEndPages/Asha">
+                            <span class="icon_menu_handle"></span>
+                                <span class="text_menu_link">Nokia Asha</span>                            </a>                        </li>
+                  <li id="menu_3" class="menu_3 menu_items">
+                            <a href="FrontEndPages/Testing">
+                            <span class="icon_menu_handle"></span>
+                          <span class="text_menu_link">Testing</span>                          </a></li>  
+              </ul>
+                    </div>
+            </div>
+        </div>
+        <!-- End of the body content for CoffeeCup Menu Builder -->
+      </div>
+      <!-- End Categories area --> 
+      
+      <div id="SocialBox">
+        <p><a href="https://www.facebook.com/JakeDinh2010" target="_blank"><img src="WebsiteImages/Facebook.png" width="50%" height="25%" border="0" /></a><a href="https://plus.google.com/u/0/101141875788770645925" target="_blank"><img src="WebsiteImages/GooglePlus.jpg" width="50%" height="25%" border="0" /></a></p>
+        <p><a href="http://www.linkedin.com/profile/view?id=204883085" target="_blank"><img src="WebsiteImages/Linked_In.png" width="50%" height="25%" border="0" /></a><img src="WebsiteImages/SkypeMetroIcon.jpg" width="50%" height="25%" /></p>
+      </div>
+      
+      <div id="VisitorCount">Visitor Count</div>
+    </div>
+    <!--End Right Column area -->	
+    
+  </div>
+  
+</div>
+
+
+<!--Start Footer area -->
+<div id="Footer">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="20%" rowspan="4"><img src="WebsiteImages/DevLogo.png" alt="BlackBear1412" name="PersonalLogo" width="200" height="200" id="PersonalLogo" /></td>
+        <td width="45%" height="50">* Website owner : Đinh Thanh Nguyên</td>
+        <td width="35%" rowspan="4"><img src="WebsiteImages/LogoSGU.png" width="100" height="100" /><img src="WebsiteImages/Asha.png" width="100" height="100" /><img src="WebsiteImages/WP.png" width="100" height="100" /></td>
+      </tr>
+      <tr>
+        <td height="50">* Nokia Asha Premium Developer</td>
+      </tr>
+      <tr>
+        <td height="50">* Nokia Lumia Premium Developer</td>
+      </tr>
+      <tr>
+        <td height="50">* Quality Control Software Engineer at Success Software Services</td>
+      </tr>
+    </table>
+</div>
+  <!--End Footer area -->
+  
+  <div id="CopyRight">
+  
+    <div align="center">
+      <p>Copy Right - Đinh Thanh Nguyên</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+    </body>
+</html>

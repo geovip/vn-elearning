@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 31, 2013 at 09:39 AM
+-- Generation Time: Oct 31, 2013 at 12:37 PM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
 
@@ -93,7 +93,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `IDUser` int(11) NOT NULL AUTO_INCREMENT,
   `StudentCode` int(20) NOT NULL,
   `Name` varchar(255) COLLATE utf8_bin NOT NULL,
-  `Point` float NOT NULL,
+  `TotalPoint` float NOT NULL,
   `Passwd` text COLLATE utf8_bin NOT NULL,
   `Active` tinyint(1) NOT NULL,
   `Email` int(11) NOT NULL,

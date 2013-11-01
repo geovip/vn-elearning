@@ -14,12 +14,11 @@ public class user {
     private int IDUser;   
     private String Passwd;
     private String Name;
-    private int StudentCode;    
-    private int TotalPoint;
+    private float TotalPoint;
     private String Email;
     private String SchoolName;
-    private Boolean Gender;
-    private Boolean Active;
+    private int Gender;
+    private int Active;
     
     public int getIDUser() {
         return IDUser;
@@ -45,19 +44,11 @@ public class user {
         this.Name = Name;
     }
 
-    public int getStudentCode() {
-        return StudentCode;
-    }
-
-    public void setStudentCode(int StudentCode) {
-        this.StudentCode = StudentCode;
-    }
-
-    public float getToTtalPoint() {
+    public float getTotalPoint() {
         return TotalPoint;
     }
 
-    public void setPoint(int TotalPoint) {
+    public void setTotalPoint(float TotalPoint) {
         this.TotalPoint = TotalPoint;
     }
 
@@ -77,35 +68,33 @@ public class user {
         this.SchoolName = SchoolName;
     }
 
-    public Boolean isGender() {
+    public int isGender() {
         return Gender;
     }
 
-    public void setGender(Boolean Gender) {
+    public void setGender(int Gender) {
         this.Gender = Gender;
     }
 
-    public Boolean isActive() {
+    public int isActive() {
         return Active;
     }
 
-    public void setActive(Boolean Active) {
+    public void setActive(int Active) {
         this.Active = Active;
     }
     
     public void user(int IDUser, 
                     String Passwd,
                     String Name,
-                    int StudentCode,
-                    int TotalPoint,
+                    float TotalPoint,
                     String Email,
                     String SchoolName,
-                    Boolean Gender,
-                    Boolean Active){
+                    int Gender,
+                    int Active){
         this.IDUser = IDUser;   
         this.Passwd = Passwd;
-        this.Name = Name;
-        this.StudentCode = StudentCode;    
+        this.Name = Name;  
         this.TotalPoint = TotalPoint;
         this.Email = Email;
         this.SchoolName = SchoolName;

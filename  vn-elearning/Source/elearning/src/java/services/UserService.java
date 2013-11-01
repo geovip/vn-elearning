@@ -32,9 +32,15 @@ public class UserService {
 
             while (rs.next()) {
                 user ds = new user();
-                //ds.setMaDauSach(rs.getInt("madausach"));
-                System.out.println(ds);
-                //ds.setNgayCapNhat(rs.getDate("ngaycapnhat"));
+                ds.setIDUser(rs.getInt("IDUser"));
+                ds.setEmail(rs.getString("Email"));
+                ds.setGender(rs.getInt("Gender"));
+                ds.setActive(rs.getInt("Active"));
+                ds.setName(rs.getString("Name"));
+                ds.setPasswd(rs.getString("Passwd"));
+                ds.setTotalPoint(rs.getFloat("TotalPoint"));
+                ds.setSchoolName(rs.getString("SchoolName"));
+        
                 arrLst.add(ds);
             }
             connect.close();

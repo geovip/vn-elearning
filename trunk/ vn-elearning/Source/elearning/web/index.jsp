@@ -37,11 +37,12 @@
 <body>
 <% ArrayList<user> arrLst = UserService.SelectAllUser(); 
 if (arrLst != null) {
-                for (int i = 0; i < arrLst.size(); i++) {
-                    user u = arrLst.get(i);
-                    out.println("sdfsdfsdffdsf--------------------");
-                    u.getName();
-                }
+ 
+    for (int i = 0; i < arrLst.size(); i++) {
+        user u = arrLst.get(i);
+        out.println(u.getEmail());
+        u.getName();
+    }
 }                       
 %>
     <div id="wrapper" class="wrapper">

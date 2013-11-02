@@ -1,5 +1,6 @@
 .wrapper{
-    width: 100%;   
+    width: 100%;
+    margin-top: 5px;
 }
 /*top*/
 .wrapper .container_top{
@@ -8,7 +9,7 @@
 
 .wrapper .container_top .banner{
     width:80%;
-    height:150px;
+    height:200px;
     margin: auto;
     background-color: red;
 }
@@ -33,18 +34,20 @@
 }
 
 .wrapper .container_center .left{
-    width: 85%;
+    width: 75%;
     height:600px;
     background-color: aqua;
     float: left;
 }
 
 .wrapper .container_center .right{
-    width: 15%;
+    margin-left: 2%;
+    width: 22%;
     height:600px;
-    background-color: background;
+    //background-color: background;
     float: left;
     display: block;
+    //border: 1px #363636 solid;
 }
 /*end center*/
 
@@ -56,19 +59,20 @@
 }
 
 .wrapper .bottom .row_1{
-    background-color: blue;
-    width: 33.3%;
+    //background-color: blue;
+    //width: 33.3%;
     float: left;
 }
 
 .wrapper .bottom .row_2{
-    background-color:red;
-    width: 33.3%;
+    //background-color:red;
+    //width: 33.3%;
+    margin-left: 10px;
     float: left;
 }
 
 .wrapper .bottom .row_3{
-    background-color:brown;
+    //background-color:brown;
     width: 33.3%;
     float: left;
 }

@@ -35,19 +35,10 @@
 
 </head>
 <body>
-<% ArrayList<user> arrLst = UserService.SelectAllUser(); 
-if (arrLst != null) {
- 
-    for (int i = 0; i < arrLst.size(); i++) {
-        user u = arrLst.get(i);
-        out.println(u.getEmail());
-        u.getName();
-    }
-}                       
-%>
+
     <div id="wrapper" class="wrapper">
         <div id="top" class="container_top">
-            <div id="banner" class="banner">Banner</div>
+            <div id="banner" class="banner"><img src="images/Banner.png" alt="SGU" name="Banner" width="100%" height="100%" id="Banner" /></div>
             <div id="menu_outer" class="menu_outer">
                 <div class="menu_wrapper">
                     <ul id="jMenu">
@@ -191,12 +182,26 @@ if (arrLst != null) {
         </div>
 
         <div id="bottom" class="bottom">
-            <div class="row_1">1</div>
-            <div class="row_2">2</div>
-            <div class="row_3">3</div>
+            <div class="row_1"><img src="images/LogoSGU.png" alt="SGU" name="PersonalLogo" width="200" height="200" id="PersonalLogo" /></div>
+            <div class="row_2">* Website owner : 
+                <br></br>- Đinh Thanh Nguyên
+                <br></br>- Thương Triệu Phát
+                <br></br>- Huỳnh Thị Tín
+                <br></br>- Đoàn Minh Nhật
+            </div>
+            <div class="row_3"></div>
         </div>
+        
+        
+        
     </div><!-- end wrapper; -->   
   
+    <div id="CopyRight" style="clear: both;background-color: #999999">
+            <div align="center">
+              <p><strong>Copy Right - SGU Students</strong></p>
+              <p>&nbsp;</p>
+            </div>
+        </div>
 </body>
 </html>
 

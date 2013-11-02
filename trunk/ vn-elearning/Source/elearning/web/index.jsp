@@ -24,6 +24,9 @@
 <link rel="stylesheet" href="css/jmenu.css" type="text/css" />
 <link rel="stylesheet" href="css/jquery-ui.css" />
 
+<!-- css login form -->
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
 <!-- js -->
 
 <!-- js plugin-->
@@ -38,7 +41,9 @@
 
     <div id="wrapper" class="wrapper">
         <div id="top" class="container_top">
-            <div id="banner" class="banner"><img src="images/Banner.png" alt="SGU" name="Banner" width="100%" height="100%" id="Banner" /></div>
+            <div id="banner" class="banner">
+                <%@include file="jsp_modules/Banner.jsp" %>
+            </div>
             <div id="menu_outer" class="menu_outer">
                 <div class="menu_wrapper">
                     <ul id="jMenu">
@@ -178,18 +183,17 @@
                     </div>
                   </div>
             </div>
-            <div id="right" class="right">Right</div>            
+            
+            
+            <div id="right" class="right">
+               <%@include file="jsp_modules/LoginForm.jsp" %>
+                
+                
+            </div>            
         </div>
 
-        <div id="bottom" class="bottom">
-            <div class="row_1"><img src="images/LogoSGU.png" alt="SGU" name="PersonalLogo" width="200" height="200" id="PersonalLogo" /></div>
-            <div class="row_2">* Website owner : 
-                <br></br>- Đinh Thanh Nguyên
-                <br></br>- Thương Triệu Phát
-                <br></br>- Huỳnh Thị Tín
-                <br></br>- Đoàn Minh Nhật
-            </div>
-            <div class="row_3"></div>
+               <div id="bottom" class="bottom" style="border-top: 2px #999999 solid">
+            <%@include file="jsp_modules/Footer.jsp" %>
         </div>
         
         
@@ -201,7 +205,7 @@
               <p><strong>Copy Right - SGU Students</strong></p>
               <p>&nbsp;</p>
             </div>
-        </div>
+    </div>
 </body>
 </html>
 
